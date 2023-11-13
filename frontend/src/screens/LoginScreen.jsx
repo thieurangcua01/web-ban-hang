@@ -75,9 +75,9 @@ const LoginScreen = () => {
 
       <Row className='py-3'>
         <Col>
-          New Customer?{' '}
+          Khách hàng mới?{' '}
           <Link to={redirect ? `/register?redirect=${redirect}` : '/register'}>
-            Register
+            Đăng ký
           </Link>
         </Col>
       </Row>
