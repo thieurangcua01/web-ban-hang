@@ -10,7 +10,7 @@ const OrderListScreen = () => {
 
   return (
     <>
-      <h1>Orders</h1>
+      <h1>Danh sách đơn đặt hàng</h1>
       {isLoading ? (
         <Loader />
       ) : error ? (
@@ -54,7 +54,7 @@ const OrderListScreen = () => {
                 <td>
                   <LinkContainer to={`/order/${order._id}`}>
                     <Button variant='light' className='btn-sm'>
-                      Details
+                      Chi tiết
                     </Button>
                   </LinkContainer>
                 </td>
